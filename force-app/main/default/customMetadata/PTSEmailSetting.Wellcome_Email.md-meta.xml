@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>Wellcome Email</label>
+    <protected>false</protected>
+    <values>
+        <field>Email_Body__c</field>
+        <value xsi:type="xsd:string">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+  &lt;meta charset=&quot;UTF-8&quot;&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;p&gt;Sitemize hoş geldiniz! Sınırsız fırsatlar ve bilgi dolu bir yolculuğa katıldığınız için çok mutluyuz. Sizlere başlangıcınızı en iyi şekilde yapmanızı sağlamak için hazırladığımız kapsamlı video rehberimizi paylaşıyoruz.&lt;/p&gt;
+  &lt;p&gt;Bu videoda keşfedecekleriniz:&lt;/p&gt;
+  &lt;ol&gt;
+    &lt;li&gt;Kullanıcı dostu platformumuzda gezinme ve ilgi alanlarınıza ve hedeflerinize uygun mükemmel kursları nasıl bulacağınız.&lt;/li&gt;
+    &lt;li&gt;Kurslara kaydolma ve öğrenme ilerlemenizi nasıl yöneteceğiniz konusunda adım adım talimatlar.&lt;/li&gt;
+    &lt;li&gt;Eğitmenlerle ve diğer öğrencilerle etkileşim kurma, canlı ve destekleyici bir öğrenme ortamı yaratma ipuçları.&lt;/li&gt;
+    &lt;li&gt;Öğrenme deneyiminizi geliştirecek ek kaynaklara ve araçlara nasıl erişeceğiniz.&lt;/li&gt;
+    &lt;li&gt;Sertifikasyon sürecimizin genel bir değerlendirmesi ve başarılarınızı dünyaya nasıl sergileyebileceğiniz.&lt;/li&gt;
+    &lt;li&gt;Yaygın soruların cevapları ve sıtemızde zamanınızı en iyi şekilde kullanma yöntemleri.&lt;/li&gt;
+  &lt;/ol&gt;
+  &lt;p&gt;Başlamak için aşağıdaki bağlantıya tıklamanız yeterli:&lt;/p&gt;
+  &lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=JdvLdO9FRJ0&quot;&gt;Tanıtım Video Bağlantısı&lt;/a&gt;&lt;/p&gt;
+  &lt;p&gt;Bu videoyu izlemek için biraz zaman ayırmanızı kesinlikle öneririz, çünkü sitemiz üzerindeki öğrenme yolculuğunuzu başlatmanıza yardımcı olacak.&lt;/p&gt;
+  &lt;p&gt;Herhangi bir sorunuz veya yardıma ihtiyacınız olduğunda, özel destek ekibimiz her zaman yanınızda. Onlara &lt;a href=&quot;https://pathtosalesforce.com/index.php/contact-us&quot;&gt;Contact Us&lt;/a&gt; üzerinden ulaşabilirsiniz.&lt;/p&gt;
+  &lt;p&gt;Yeniden sitemizi tercih ettiğiniz için teşekkür ederiz ve başarılarınızı görmek için sabırsızlanıyoruz!&lt;/p&gt;
+  &lt;p&gt;En iyi dileklerimizle,&lt;br&gt;
+    Engin Baştürk&lt;br&gt;
+    Salesforce Developer at AssisRX&lt;br&gt;
+    Path To Salesforce&lt;br&gt;
+  &lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;</value>
+    </values>
+    <values>
+        <field>Email_Subject__c</field>
+        <value xsi:type="xsd:string">Wellcome Path To Salesforce</value>
+    </values>
+</CustomMetadata>

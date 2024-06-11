@@ -1,0 +1,61 @@
+<template>
+    <lightning-card >
+      <div class="allpage"> 
+     <div class="x"   style="background-color:rgb(79, 228, 236)"> 
+      <br>
+    
+       <div class="slds-align_absolute-center"  style=" color:purple;font-size:50px" ><b>{firstName} {lastName}</b> </div> <br><br>
+      </div>
+       <hr>
+
+       <div class="slds-grid slds-gutters" style="color:purple; font-weight:bold;font-size:24px">
+         <div class="slds-col">
+         <span><p> <img  class="myPhoto" src={photoUrl} alt="ZeRo" height="700px" width="700px"  ></p></span>
+         </div>
+   
+
+   
+         <div class="slds-col " style="color:green">
+   
+         <img class="saleslogo" src="https://www.salesforce.com/news/wp-content/uploads/sites/3/2021/05/Salesforce-logo.jpg" height="300px" width="400px" >
+   
+
+   
+         <span> <button class="slds-button slds-button_text-destructive" style="color:green; font-size:20px; border-style:none"  > <p><a href="mailto:ozgurdestina@gmail.com">SEND Email ME</a></p></button></span> 
+    
+         </div>
+         </div>
+      
+      
+   <hr>
+        
+         <div class="slds-grid slds-gutters" >
+           <div class="slds-col" >
+           <div><span><b  style="color:blue;font-size:30px  ">{lastVisitDate}</b> </span></div>
+           <div><span><b style="font-size:20px">Last Visit Date</b></span></div>
+           </div>
+           <div class="slds-col" >
+          <div><span><b style="color:red ;font-size:50px "> {alltimes}</b></span></div> 
+          <div><span><b style="font-size:20px">ALL TIMES</b></span></div> 
+           </div>
+           <div class="slds-col" >
+             <div><span><b  style="color:green;font-size:50px "> {totalcertificates}</b></span></div>
+             <div><span><b style="font-size:20px">TOTAL CERTIFICATES</b></span></div>
+           </div>
+           </div>
+           
+
+           <div class="slds-grid slds-gutters">
+            <div class="slds-col">
+              <span><b  style="color:purple;font-size:50px">{thisweek}</b></span>
+              <div><span><b style="font-size:20px">THIS WEEK</b></span></div> 
+            </div>
+            <div class="slds-col">
+              <span><b style="color:coral;font-size:50px"> {thismonth}</b></span>
+              <div><span><b style="font-size:20px">THIS MONTH</b> </span></div> <br>
+            </div>
+          </div>
+          
+            </div>
+    </lightning-card>
+ </template>

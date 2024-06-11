@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionCalls>
+        <name>Get_UserList_action</name>
+        <label>Get UserList action</label>
+        <locationX>176</locationX>
+        <locationY>134</locationY>
+        <actionName>PTSUserListInvocable</actionName>
+        <actionType>apex</actionType>
+        <connector>
+            <targetReference>API_Log_Success</targetReference>
+        </connector>
+        <faultConnector>
+            <targetReference>API_Log_Error_Log</targetReference>
+        </faultConnector>
+        <flowTransactionModel>Automatic</flowTransactionModel>
+        <nameSegment>PTSUserListInvocable</nameSegment>
+        <versionSegment>1</versionSegment>
+    </actionCalls>
+    <apiVersion>58.0</apiVersion>
+    <environments>Default</environments>
+    <interviewLabel>PTS Update User Data {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>PTS Update User Data</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>Flow</processType>
+    <recordCreates>
+        <name>API_Log_Error_Log</name>
+        <label>API Log Error Log</label>
+        <locationX>440</locationX>
+        <locationY>242</locationY>
+        <inputAssignments>
+            <field>APIKey__c</field>
+            <value>
+                <stringValue>PTS Update User Data</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>ErrorMessage__c</field>
+            <value>
+                <elementReference>$Flow.FaultMessage</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Is_Error__c</field>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Log_Title__c</field>
+            <value>
+                <stringValue>Error  at PTS Update User Data</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>MessageType__c</field>
+            <value>
+                <stringValue>Flow</stringValue>
+            </value>
+        </inputAssignments>
+        <object>API_Log__c</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordCreates>
+    <recordCreates>
+        <name>API_Log_Success</name>
+        <label>API Log Success</label>
+        <locationX>176</locationX>
+        <locationY>242</locationY>
+        <inputAssignments>
+            <field>APIKey__c</field>
+            <value>
+                <stringValue>PTS Update User Data</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Is_Error__c</field>
+            <value>
+                <booleanValue>false</booleanValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Log_Title__c</field>
+            <value>
+                <stringValue>Success at PTS Update User Data</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>MessageBody__c</field>
+            <value>
+                <stringValue>Apex action called Successfully</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>MessageType__c</field>
+            <value>
+                <stringValue>Flow</stringValue>
+            </value>
+        </inputAssignments>
+        <object>API_Log__c</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordCreates>
+    <start>
+        <locationX>50</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Get_UserList_action</targetReference>
+        </connector>
+    </start>
+    <status>Active</status>
+</Flow>

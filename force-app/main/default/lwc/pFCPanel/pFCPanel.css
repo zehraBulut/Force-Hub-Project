@@ -1,0 +1,43 @@
+.panel{
+
+    border-radius: 10px;
+    margin: 5px;
+}
+
+.panel-heading{
+
+    font-weight: bold;
+    font-size:24px;
+    text-align: center;   
+
+}
+
+.panel-body{
+
+    font-size: 16px;    
+    color:black;
+    padding:10px;
+    background:white;
+
+}
+
+.panel-danger{
+    background:rgb(206, 162, 162);
+    border:1px solid rgb(201, 77, 77);
+    color:rgb(201, 77, 77);
+
+}
+
+.panel-success{
+    background:rgb(185, 237, 187);
+    border:1px solid rgb(61, 218, 145);
+    color:rgb(71, 230, 79);
+
+}
+
+.panel-warning{
+    background:rgb(247, 219, 121);
+    border:1px solid rgb(233, 129, 73);
+    color:rgb(151, 103, 25);
+
+}

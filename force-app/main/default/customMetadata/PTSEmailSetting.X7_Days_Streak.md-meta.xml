@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>7 Days Streak</label>
+    <protected>false</protected>
+    <values>
+        <field>Email_Body__c</field>
+        <value xsi:type="xsd:string">Congratulations on your incredible dedication to learning Salesforce! We&apos;re thrilled to acknowledge your impressive 7-day study streak. 🚀
+
+Your commitment to continuous learning is inspiring, and we want to encourage you to keep up the great work. Consistent effort leads to mastery, and you&apos;re well on your way!
+
+Here&apos;s a quick reminder to stay focused and take advantage of the valuable resources our platform offers. If you have any questions or need assistance, don&apos;t hesitate to reach out to our support team.
+
+Remember, every study session brings you one step closer to mastering Salesforce and achieving your goals. Keep pushing your limits!</value>
+    </values>
+    <values>
+        <field>Email_Subject__c</field>
+        <value xsi:type="xsd:string">Send Email to contacts</value>
+    </values>
+</CustomMetadata>

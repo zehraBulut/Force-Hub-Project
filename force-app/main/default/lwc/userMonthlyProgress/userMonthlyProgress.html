@@ -1,0 +1,29 @@
+<template>  
+
+ <table class="custom-table" style="width:100%; border-collapse: collapse;  border: 1px  solid black; white-space:norwap;">
+  <tbody>
+    <tr>
+     <template for:each={Days} for:item="item" >
+              <td key={item} class="xxx">  {item}  </td>
+     </template> 
+   </tr>
+   
+   <tr>
+    <template for:each={MPList} for:item="item" >         
+            <td key={item} class="yyy" >
+
+    <template if:true={item}> <span style='font-size:30px;'>&#129392;</span> </template>
+     <template if:false={item}> <span style='font-size:30px;'>&#128584;</span> </template>
+          </td>
+     </template>
+      </tr>  
+      </tbody>
+    </table>   
+
+
+
+
+
+
+
+  </template>

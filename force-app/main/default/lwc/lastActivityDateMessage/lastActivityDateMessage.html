@@ -1,0 +1,26 @@
+<template>
+
+    <lightning-card >
+
+<template  if:true = {isToday}  >
+    <div class="success" >
+        <div><span><b>Last Visit Date: </b></span> <span><b>{output}</b> </span></div>
+        </div>
+</template>
+
+<template   if:true = {isYesterday}  >
+    <div class="warning" >
+        <div><span><b>Last Visit Date: </b></span><span><b>{output}</b> </span></div>
+        </div>
+</template>
+
+<template   if:true = {isOldDay} >
+    <div class="danger" >
+        <div><span><b>Last Visit Date: </b></span><span><b>{output}</b> </span></div>
+        </div>
+</template>
+
+    </lightning-card>
+
+
+</template>

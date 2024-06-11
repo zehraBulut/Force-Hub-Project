@@ -1,0 +1,27 @@
+<template>
+    
+  <lightning-card>
+
+    <template if:true={cont}  >
+
+     <template    for:each={cont} for:item="c" >   
+
+<lightning-layout-item  key={c.Id}  >
+  
+  <p> Best contact of the Week is: {data} </p>
+
+</lightning-layout-item>
+
+
+     </template>
+     
+      
+
+    </template>
+
+   <h1>aaa</h1>
+  
+  </lightning-card>  
+
+
+</template>

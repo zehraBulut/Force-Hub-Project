@@ -1,0 +1,22 @@
+.danger{
+    background-color:rgb(230, 143, 230);
+    color:rgb(59, 3, 59);
+    border: 1px solid rgb(56, 1, 37);
+    padding: 10px;
+    }
+    
+    
+    .success{
+        background-color: rgb(115, 214, 115);
+        color: rgb(4, 97, 4);
+        border: 1px solid rgb(3, 67, 3);
+        padding: 10px;
+    }
+    
+    .alert{
+     background-color:yellow;
+    border-radius:5px;
+    font: size 14px;
+    padding: 10px;
+    
+    }
